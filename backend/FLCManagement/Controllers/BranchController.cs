@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using FLCManagement.Models;
+using Microsoft.AspNetCore.Mvc;
 
 namespace FLCManagement.Controllers
 {
@@ -6,7 +7,13 @@ namespace FLCManagement.Controllers
     {
         public IActionResult Index()
         {
-            return View();
+            Branch branch = new Branch() {
+                branchID = 1,
+                branchName = "Chi nhánh 1",
+                branchAddress = "ABC",
+            };
+
+            return Ok(branch);
         }
     }
 }

@@ -1,8 +1,8 @@
-﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc;
 
 namespace FLCManagement.Controllers
 {
-    public class ClassController : Controller
+    public class CertificateController : Controller
     {
         public IActionResult Index()
         {
