@@ -1,0 +1,14 @@
+:root {
+    --color_main:#071952;
+    --with_sidebar:  235px;
+    --with_sidebar_hiden: 144px;
+    --color_background:#F0F0F0;
+    --color_table: #088395;
+    --color_row: #D9D9D9;
+    --size-field_height: 50px;
+    --height_from_admin: 400px;
+    --color_edit:rgb(8, 72, 139);
+}
+body {
+    margin: 0 !important;
+}

@@ -1,0 +1,790 @@
+{
+  "user": [
+    {
+      "id": 0,
+      "firtname": "Khôi",
+      "lastname": "Nguyễn Minh",
+      "dob": "2003-10-10",
+      "email": "khoinguyenminh189@gmail.com",
+      "phone": "0329162803",
+      "password": "Minhkhoi@188",
+      "role": "admin",
+      "token": "abcahjdiwedji"
+    },
+    {
+      "firtname": "Van Hòa",
+      "lastname": "Đỗ Lâm",
+      "dob": "2023-10-31",
+      "email": "khoinguyenminh188@gmail.com",
+      "phone": "0329163489",
+      "password": "Minhkhoi@189",
+      "role": "user",
+      "token": "khoinguyenminh188@gmail.com0329163489",
+      "id": 1
+    },
+    {
+      "firtname": "Hoàng ",
+      "lastname": "Vỏ  Việt",
+      "dob": "2023-11-14",
+      "email": "khoinguyenminh200@gmail.com",
+      "phone": "0329162803",
+      "password": "Minhkhoi@188",
+      "role": "user",
+      "token": "khoinguyenminh200@gmail.com0329162803",
+      "id": 2
+    },
+    {
+      "firtname": "To",
+      "lastname": "MA",
+      "dob": "2003-11-11",
+      "email": "minhkhoi@gmail.com",
+      "phone": "0329162803",
+      "password": "Minhkhoi@188",
+      "role": "employee",
+      "token": "minhkhoi@gmail.com0329162803",
+      "id": 3
+    }
+  ],
+  "branch": [
+    {
+      "name": "Cao Thắng",
+      "adress": "304Đ Cao Thắng,Quận 12,Tp Hồ Chí Minh",
+      "id": 1
+    },
+    {
+      "name": "Thủ Đức",
+      "adress": "88/99 Thủ Đức Thành Phố Hồ Chí Minh",
+      "id": 2
+    },
+    {
+      "name": "Bình Thạnh",
+      "adress": "88/99 Bình Thạnh  Phố Hồ Chí Minh",
+      "id": 3
+    },
+    {
+      "name": "fewfewfew",
+      "adress": "fewfwefe",
+      "id": 4
+    },
+    {
+      "name": "fewfewfew",
+      "adress": "fewfewfew",
+      "id": 5
+    }
+  ],
+  "languages": [
+    {
+      "name": "Tiếng Nhật",
+      "id": 1
+    },
+    {
+      "name": "Tiếng anh",
+      "id": 2
+    },
+    {
+      "name": "Tiếng pháp",
+      "id": 3
+    },
+    {
+      "name": "Tiếng Thổ nhỉ kỳ",
+      "id": 4
+    },
+    {
+      "name": "Tiếng pháp",
+      "id": 11
+    }
+  ],
+  "certificate": [
+    {
+      "name": "Tiếng Thái",
+      "id": 1
+    },
+    {
+      "name": "Tiếng Anh",
+      "id": 2
+    },
+    {
+      "name": "Tiếng Ấn độ",
+      "id": 3
+    },
+    {
+      "name": "Tiếng Hàn ",
+      "id": 4
+    },
+    {
+      "name": "Tiếng Tây Ban Nha",
+      "id": 5
+    }
+  ],
+  "content_exame": [
+    {
+      "name": "Nói",
+      "id": 1
+    },
+    {
+      "name": "Nghe (Tự luận)",
+      "id": 2
+    },
+    {
+      "name": "Viết (Trắc nghiệm)",
+      "id": 3
+    },
+    {
+      "name": "fewfew",
+      "id": 4
+    },
+    {
+      "name": "fewfew",
+      "id": 5
+    },
+    {
+      "name": "fewfew",
+      "id": 10
+    }
+  ],
+  "exam": [
+    {
+      "id": 4,
+      "language_id": 1,
+      "certificate_id": 2,
+      "name": "LL",
+      "price": 9000000,
+      "decription": "dwqdwqdwq",
+      "exam_type_id": [
+        3
+      ]
+    },
+    {
+      "id": 5,
+      "language_id": 4,
+      "certificate_id": 5,
+      "name": "MM",
+      "price": 8800000,
+      "decription": "dwqdwqdwq",
+      "exam_type_id": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": 6,
+      "language_id": 1,
+      "certificate_id": 1,
+      "name": "dwqdwq",
+      "price": 3000000,
+      "decription": null,
+      "exam_type_id": [
+        2,
+        8
+      ]
+    },
+    {
+      "id": 7,
+      "language_id": 1,
+      "certificate_id": 1,
+      "name": "dwqdwq",
+      "price": 324432,
+      "decription": "erggerg",
+      "exam_type_id": [
+        2,
+        7
+      ]
+    }
+  ],
+  "course": [
+    {
+      "id": 1,
+      "id_lang": 1,
+      "id_cer": 2,
+      "name": "Toics",
+      "price": 1500000,
+      "decription": null
+    },
+    {
+      "id": 2,
+      "id_lang": 2,
+      "id_cer": 2,
+      "name": "IE",
+      "price": 1000000,
+      "decription": null
+    },
+    {
+      "id": 3,
+      "id_lang": 2,
+      "id_cer": 3,
+      "name": "KKK",
+      "price": 120000,
+      "decription": null
+    },
+    {
+      "id": 4,
+      "id_lang": 2,
+      "id_cer": 3,
+      "name": "KOKOK",
+      "price": 2000000,
+      "decription": null
+    }
+  ],
+  "class": [
+    {
+      "id": 1,
+      "name": "Toic Tháng 7",
+      "start_date": "2023-11-17",
+      "end_date": "2023-11-27",
+      "status": true,
+      "course_id": 1,
+      "branch_id": 1
+    },
+    {
+      "id": 2,
+      "name": "Toic Tháng 8",
+      "start_date": "2023-11-17",
+      "end_date": "2023-11-27",
+      "status": true,
+      "course_id": 1,
+      "branch_id": 1
+    },
+    {
+      "id": 3,
+      "name": "IE 11",
+      "start_date": "2023-11-17",
+      "end_date": "2023-11-27",
+      "status": true,
+      "course_id": 2,
+      "branch_id": 3
+    },
+    {
+      "id": 4,
+      "name": "IE 11",
+      "start_date": "2023-11-16",
+      "end_date": "2023-11-26",
+      "status": true,
+      "course_id": 2,
+      "branch_id": 1
+    },
+    {
+      "id": 5,
+      "name": "Toics 11",
+      "start_date": "2023-11-17",
+      "end_date": "2023-11-18",
+      "status": true,
+      "course_id": 1,
+      "branch_id": 1
+    },
+    {
+      "id": 6,
+      "name": "Toic Tháng 7",
+      "start_date": "2023-11-17",
+      "end_date": "2023-11-27",
+      "status": true,
+      "course_id": 1,
+      "branch_id": 1
+    }
+  ],
+  "exambatch": [
+    {
+      "id": 1,
+      "name": "LL 01",
+      "exam_id": 4,
+      "status": true,
+      "exam_data": [
+        {
+          "id": 0,
+          "start_hour": "08:22",
+          "end_hour": "10:22",
+          "exam_type": 1,
+          "start_date": "2023-11-16",
+          "branch_id": 2
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "LL 02",
+      "exam_id": 4,
+      "status": true,
+      "exam_data": [
+        {
+          "id": 1,
+          "start_hour": "08:11",
+          "end_hour": "11:11",
+          "start_date": "2023-11-18",
+          "exam_type": 1,
+          "branch_id": 1
+        },
+        {
+          "id": 2,
+          "start_hour": "10:12",
+          "end_hour": "11:12",
+          "exam_type": 2,
+          "start_date": "2023-11-18",
+          "branch_id": 1
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "MM 01",
+      "exam_id": 5,
+      "status": true,
+      "exam_data": [
+        {
+          "start_hour": "06:08",
+          "end_hour": "19:09",
+          "exam_type": 2,
+          "start_date": "2023-11-18",
+          "branch_id": 2
+        },
+        {
+          "start_hour": "18:07",
+          "end_hour": "23:12",
+          "exam_type": 3,
+          "start_date": "2023-11-23",
+          "branch_id": 2
+        }
+      ]
+    }
+  ],
+  "lesson": [
+    {
+      "id": 1,
+      "start_date": "2023-11-18",
+      "end_date": "2023-11-19",
+      "shift": "TH01",
+      "start_hour": "07:30",
+      "end_hour": "09:30",
+      "class_id": 1
+    },
+    {
+      "id": 2,
+      "start_date": "2023-11-18",
+      "end_date": "2023-11-19",
+      "shift": "TH02",
+      "start_hour": "06:25",
+      "end_hour": "08:25",
+      "class_id": 1
+    },
+    {
+      "id": 3,
+      "start_date": "2023-11-16",
+      "end_date": "2023-11-30",
+      "shift": "88888888888888888888",
+      "start_hour": "06:25",
+      "end_hour": "07:25",
+      "class_id": 6
+    }
+  ],
+  "customer_class": [
+    {
+      "customer_id": 1,
+      "class_id": 2,
+      "status_pay": true,
+      "date_create": 699978145245,
+      "id": 121216456
+    },
+    {
+      "customer_id": 1,
+      "class_id": 3,
+      "status_pay": true,
+      "date_create": 1699978145245,
+      "id": 121216458
+    },
+    {
+      "customer_id": 2,
+      "class_id": 1,
+      "status_pay": true,
+      "date_create": 1700052722670,
+      "id": 121216459
+    },
+    {
+      "customer_id": 2,
+      "class_id": 2,
+      "status_pay": true,
+      "date_create": 1700052723206,
+      "id": 121216460
+    },
+    {
+      "customer_id": 2,
+      "class_id": 3,
+      "status_pay": true,
+      "date_create": 1700052726357,
+      "id": 121216461
+    },
+    {
+      "customer_id": 2,
+      "class_id": 6,
+      "status_pay": true,
+      "date_create": 1700058899495,
+      "id": 121216462
+    },
+    {
+      "customer_id": 2,
+      "class_id": 5,
+      "status_pay": true,
+      "date_create": 1700058900391,
+      "id": 121216463
+    },
+    {
+      "customer_id": 2,
+      "class_id": 4,
+      "status_pay": true,
+      "date_create": 1700058904544,
+      "id": 121216464
+    },
+    {
+      "customer_id": 1,
+      "class_id": 4,
+      "status_pay": false,
+      "date_create": 1700061936729,
+      "id": 121216465
+    },
+    {
+      "customer_id": 1,
+      "class_id": 1,
+      "status_pay": false,
+      "date_create": 1700062104020,
+      "id": 121216466
+    },
+    {
+      "customer_id": 1,
+      "class_id": 5,
+      "status_pay": false,
+      "date_create": 1700062106820,
+      "id": 121216467
+    },
+    {
+      "customer_id": 1,
+      "class_id": 6,
+      "status_pay": false,
+      "date_create": 1700062107987,
+      "id": 121216468
+    }
+  ],
+  "customer_exam": [
+    {
+      "customer_id": 1,
+      "exam_session_id": 2,
+      "status_pay": true,
+      "date_create": 1699959831906,
+      "result": 1.5,
+      "id": 3
+    },
+    {
+      "customer_id": 1,
+      "exam_session_id": 1,
+      "status_pay": true,
+      "date_create": 1700041712402,
+      "result": 3,
+      "id": 4
+    },
+    {
+      "customer_id": 1,
+      "exam_session_id": 3,
+      "status_pay": true,
+      "date_create": 1700041716081,
+      "result": null,
+      "id": 5
+    },
+    {
+      "customer_id": 2,
+      "exam_session_id": 1,
+      "status_pay": true,
+      "date_create": 1700052685230,
+      "result": 9,
+      "id": 6
+    },
+    {
+      "customer_id": 2,
+      "exam_session_id": 2,
+      "status_pay": true,
+      "date_create": 1700052685878,
+      "result": 4.5,
+      "id": 7
+    },
+    {
+      "customer_id": 2,
+      "exam_session_id": 3,
+      "status_pay": true,
+      "date_create": 1700052688787,
+      "result": null,
+      "id": 8
+    }
+  ],
+  "bill_cus_class": [
+    {
+      "id": 2,
+      "date_create": 1699949324610,
+      "price": 1500000,
+      "id_class": 2,
+      "id_cus": 1
+    },
+    {
+      "id": 3,
+      "date_create": 1699978226315,
+      "price": 1000000,
+      "id_class": 3,
+      "id_cus": 1
+    },
+    {
+      "id": 4,
+      "date_create": 1700052757014,
+      "price": 1500000,
+      "id_class": 1,
+      "id_cus": 2
+    },
+    {
+      "id": 5,
+      "date_create": 1700059180045,
+      "price": 1500000,
+      "id_class": 2,
+      "id_cus": 2
+    },
+    {
+      "id": 6,
+      "date_create": 1700059194826,
+      "price": 1500000,
+      "id_class": 2,
+      "id_cus": 1
+    },
+    {
+      "id": 7,
+      "date_create": 1700059202241,
+      "price": 1500000,
+      "id_class": 2,
+      "id_cus": 2
+    },
+    {
+      "id": 8,
+      "date_create": 1700059292550,
+      "price": 1500000,
+      "id_class": 2,
+      "id_cus": 2
+    },
+    {
+      "id": 9,
+      "date_create": 1700059371532,
+      "price": 1500000,
+      "id_class": 2,
+      "id_cus": 2
+    },
+    {
+      "id": 10,
+      "date_create": 1700059502486,
+      "price": 1500000,
+      "id_class": 2,
+      "id_cus": 2
+    },
+    {
+      "id": 11,
+      "date_create": 1700059676899,
+      "price": 1500000,
+      "id_class": 6,
+      "id_cus": 2
+    },
+    {
+      "id": 12,
+      "date_create": 1700059680755,
+      "price": 1500000,
+      "id_class": 5,
+      "id_cus": 2
+    },
+    {
+      "id": 13,
+      "date_create": 1700059724186,
+      "price": 1000000,
+      "id_class": 3,
+      "id_cus": 1
+    },
+    {
+      "id": 14,
+      "date_create": 1700059726585,
+      "price": 1000000,
+      "id_class": 3,
+      "id_cus": 2
+    },
+    {
+      "id": 15,
+      "date_create": 1700059737471,
+      "price": 1000000,
+      "id_class": 4,
+      "id_cus": 2
+    }
+  ],
+  "bill_cus_exam": [
+    {
+      "id": 2,
+      "date_create": 1699960390315,
+      "price": 9000000,
+      "id_exambactch": 2,
+      "id_cus": 1
+    },
+    {
+      "id": 3,
+      "date_create": 1699960437146,
+      "price": 9000000,
+      "id_exambactch": 2,
+      "id_cus": 1
+    },
+    {
+      "id": 4,
+      "date_create": 1699960456896,
+      "price": 9000000,
+      "id_exambactch": 2,
+      "id_cus": 1
+    },
+    {
+      "id": 5,
+      "date_create": 1699960520209,
+      "price": 9000000,
+      "id_exambactch": 2,
+      "id_cus": 1
+    },
+    {
+      "id": 6,
+      "date_create": 1699978260875,
+      "price": 9000000,
+      "id_exambactch": 1,
+      "id_cus": 1
+    },
+    {
+      "id": 7,
+      "date_create": 1699978268191,
+      "price": 8800000,
+      "id_exambactch": 3,
+      "id_cus": 1
+    },
+    {
+      "id": 8,
+      "date_create": 1700042454583,
+      "price": 9000000,
+      "id_exambactch": 1,
+      "id_cus": 1
+    },
+    {
+      "id": 9,
+      "date_create": 1700047655916,
+      "price": 8800000,
+      "id_exambactch": 3,
+      "id_cus": 1
+    },
+    {
+      "id": 10,
+      "date_create": 1700052799385,
+      "price": 9000000,
+      "id_exambactch": 1,
+      "id_cus": 2
+    },
+    {
+      "id": 11,
+      "date_create": 1700052812555,
+      "price": 9000000,
+      "id_exambactch": 2,
+      "id_cus": 2
+    },
+    {
+      "id": 12,
+      "date_create": 1700052817184,
+      "price": 8800000,
+      "id_exambactch": 3,
+      "id_cus": 2
+    }
+  ],
+  "clipboard_exambacth": [
+    {
+      "id": 1,
+      "id_exambatch": 2,
+      "id_content": 1,
+      "id_customer": 2,
+      "status": true,
+      "point": 9
+    },
+    {
+      "id": 2,
+      "id_exambatch": 2,
+      "id_content": 2,
+      "id_customer": 1,
+      "status": true,
+      "point": 0
+    },
+    {
+      "id": 3,
+      "id_exambatch": 2,
+      "id_content": 2,
+      "id_customer": 2,
+      "status": true,
+      "point": 0
+    },
+    {
+      "id": 4,
+      "id_exambatch": 1,
+      "id_content": 1,
+      "id_customer": 1,
+      "status": true,
+      "point": 3
+    },
+    {
+      "id": 5,
+      "id_exambatch": 2,
+      "id_content": 1,
+      "id_customer": 1,
+      "status": true,
+      "point": null
+    },
+    {
+      "id": 6,
+      "id_exambatch": 3,
+      "id_content": 2,
+      "id_customer": 1,
+      "status": true,
+      "point": null
+    },
+    {
+      "id": 7,
+      "id_exambatch": 3,
+      "id_content": 3,
+      "id_customer": 1,
+      "status": true,
+      "point": 8
+    },
+    {
+      "id": 8,
+      "id_exambatch": 3,
+      "id_content": 3,
+      "id_customer": 1,
+      "status": true,
+      "point": null
+    },
+    {
+      "id": 9,
+      "id_exambatch": 1,
+      "id_content": 1,
+      "id_customer": 2,
+      "status": true,
+      "point": null
+    },
+    {
+      "id": 10,
+      "id_exambatch": 3,
+      "id_content": 2,
+      "id_customer": 2,
+      "status": true,
+      "point": null
+    },
+    {
+      "id": 11,
+      "id_exambatch": 3,
+      "id_content": 3,
+      "id_customer": 2,
+      "status": true,
+      "point": 4
+    },
+    {
+      "id": 12,
+      "id_exambatch": 3,
+      "id_content": 3,
+      "id_customer": 2,
+      "status": true,
+      "point": null
+    }
+  ]
+}
